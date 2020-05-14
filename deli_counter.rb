@@ -6,9 +6,9 @@ def line(array)
   else
     line_list = Array.new
     line_list << "The line is currently:"
-    array.each_with_index do |name, index|
+    array.each_with_index { |name, index|
       line_list << "#{index + 1}.#{name}"
-    end
+    }
     return line_list.join(" ")
   end
 end
