@@ -4,9 +4,10 @@ def line(array)
   if array.count == 0
     puts "The line is currently empty."
   else
-    puts array.count
+    
     line_list = Array.new
     line_list << "The line is currently:"
+    puts line_list
     array.each do |name|
       line_list << "#{array.index(name) + 1}.#{name}"
     end
