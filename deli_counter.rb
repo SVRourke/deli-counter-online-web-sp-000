@@ -12,7 +12,7 @@ def line(array)
       line_list << "#{array.index(name) + 1}. #{name}"
       # puts line_list.join(" ")
     end
-    return line_list.join(" ")
+    puts line_list.join(" ")
   end
 end
 
