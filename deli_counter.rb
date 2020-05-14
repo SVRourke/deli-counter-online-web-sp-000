@@ -10,6 +10,7 @@ def line(array)
     puts line_list
     array.each do |name|
       line_list << "#{array.index(name) + 1}.#{name}"
+      puts line_list
     end
     return line_list.join(" ")
   end
