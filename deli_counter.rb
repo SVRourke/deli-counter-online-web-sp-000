@@ -9,7 +9,7 @@ def line(array)
     line_list << "The line is currently:"
     puts line_list
     array.each do |name|
-      line_list << "#{array.index(name) + 1}.#{name}"
+      line_list << "#{array.index(name) + 1}. #{name}"
       puts line_list
     end
     return line_list.join(" ")
